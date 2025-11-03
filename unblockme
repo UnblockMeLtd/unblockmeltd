@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>UnblockMe | Plumbing & Drainlaying – Auckland</title>
+  <meta name="description" content="UnblockMe – Honest, Reliable, Affordable plumbing & drainlaying in Auckland. Same-day service, upfront pricing. Call 021 885 610." />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--brand:#00c4a7;--brand-dark:#00a890}
+    html,body{font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji"}
+    .brand{color:var(--brand)}
+    .bg-brand{background:var(--brand)}
+    .border-brand{border-color:var(--brand)}
+    .ring-brand{--tw-ring-color:var(--brand)}
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Plumber",
+    "name": "UnblockMe",
+    "url": "https://unblockme.co.nz/",
+    "telephone": "+64 21 885 610",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "104 Flanshaw Road, Te Atatū South",
+      "addressLocality": "Auckland",
+      "addressCountry": "NZ"
+    },
+    "areaServed": ["Auckland","West Auckland","North Shore","Central Auckland"],
+    "priceRange": "$$",
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+      "opens": "07:00",
+      "closes": "19:00"
+    }],
+    "sameAs": ["https://www.instagram.com/UnblockMe"]
+  }
+  </script>
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <!-- Top bar -->
+  <div class="bg-black text-white text-sm">
+    <div class="mx-auto max-w-7xl px-4 py-2 flex items-center justify-between">
+      <p>Honest, Reliable, Affordable — Registered plumber & drainlayer</p>
+      <a href="tel:021885610" class="font-semibold underline">Call 021&nbsp;885&nbsp;610</a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="mx-auto max-w-7xl px-4 py-6 flex items-center justify-between">
+    <div class="flex items-center gap-2">
+      <h1 class="text-2xl font-extrabold tracking-tight">Unblock<span class="brand">Me</span></h1>
+      <span class="ml-3 inline-flex items-center rounded-full bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5">Auckland</span>
+    </div>
+    <nav class="hidden md:flex items-center gap-6 text-sm font-medium">
+      <a href="#services" class="hover:text-gray-700">Services</a>
+      <a href="#pricing" class="hover:text-gray-700">Pricing</a>
+      <a href="#about" class="hover:text-gray-700">About</a>
+      <a href="#contact" class="hover:text-gray-700">Contact</a>
+      <a href="#book" class="px-4 py-2 rounded-xl bg-brand text-white shadow hover:opacity-95">Book a job</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="bg-white">
+    <div class="mx-auto max-w-7xl px-4 py-16 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h2 class="text-4xl md:text-5xl font-extrabold leading-tight">Plumbing & Drainlaying you can trust.</h2>
+        <p class="mt-4 text-lg text-gray-700">Same-day call-outs across Auckland. Upfront pricing, tidy workmanship, and a service guarantee.</p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="#book" class="px-5 py-3 rounded-xl bg-brand text-white font-semibold shadow hover:opacity-95">Get a fast quote</a>
+          <a href="tel:021885610" class="px-5 py-3 rounded-xl border border-brand text-brand font-semibold hover:bg-green-50">Call 021&nbsp;885&nbsp;610</a>
+        </div>
+        <ul class="mt-6 grid sm:grid-cols-2 gap-3 text-sm text-gray-700">
+          <li class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-brand"></span> Registered plumber & drainlayer</li>
+          <li class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-brand"></span> West Auckland based, city-wide service</li>
+          <li class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-brand"></span> EFTPOS/Invoice/GST receipts</li>
+          <li class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-brand"></span> Transparent, honest quotes</li>
+        </ul>
+      </div>
+      <div>
+        <div class="relative rounded-2xl overflow-hidden shadow-lg">
+          <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=1600&auto=format&fit=crop" alt="Plumber working on pipes" class="w-full h-80 object-cover"/>
+          <div class="absolute bottom-3 right-3 bg-white/90 backdrop-blur px-3 py-2 rounded-xl text-sm font-semibold">Locally owned & operated</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="bg-gray-50">
+    <div class="mx-auto max-w-7xl px-4 py-16">
+      <h3 class="text-2xl font-bold">Services</h3>
+      <p class="mt-2 text-gray-700">Residential & light commercial. If it moves water, we can install, maintain, or repair it.</p>
+      <div class="mt-8 grid md:grid-cols-3 gap-6">
+        <div class="bg-white rounded-2xl p-6 shadow">
+          <h4 class="font-bold">General Plumbing</h4>
+          <ul class="mt-3 text-sm text-gray-700 space-y-1 list-disc ml-4">
+            <li>Taps, toilets, leaks, burst pipes</li>
+            <li>Hot water cylinders, valves</li>
+            <li>Bathroom & kitchen plumbing</li>
+          </ul>
+        </div>
+        <div class="bg-white rounded-2xl p-6 shadow">
+          <h4 class="font-bold">Drainlaying & Repairs</h4>
+          <ul class="mt-3 text-sm text-gray-700 space-y-1 list-disc ml-4">
+            <li>New drains & repairs</li>
+            <li>Downpipes & stormwater</li>
+            <li>Soak pits & cesspits</li>
+          </ul>
+        </div>
+        <div class="bg-white rounded-2xl p-6 shadow">
+          <h4 class="font-bold">Unblocking & CCTV</h4>
+          <ul class="mt-3 text-sm text-gray-700 space-y-1 list-disc ml-4">
+            <li>Hydro-jet unblocking (coming online)</li>
+            <li>CCTV inspections & reports</li>
+            <li>Root cutting & descaling</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing" class="bg-white">
+    <div class="mx-auto max-w-7xl px-4 py-16">
+      <h3 class="text-2xl font-bold">Simple pricing</h3>
+      <p class="mt-2 text-gray-700">Upfront, transparent rates. Fixed quotes available on inspection.</p>
+      <div class="mt-8 grid md:grid-cols-3 gap-6">
+        <div class="rounded-2xl border p-6 shadow-sm">
+          <h4 class="font-bold">Call-out</h4>
+          <p class="mt-2 text-3xl font-extrabold">$<span id="callout">89</span><span class="text-base font-normal"> + GST</span></p>
+          <p class="text-sm text-gray-600 mt-1">Includes first 15 mins on site</p>
+        </div>
+        <div class="rounded-2xl border p-6 shadow-sm">
+          <h4 class="font-bold">Hourly (labour)</h4>
+          <p class="mt-2 text-3xl font-extrabold">$<span id="hourly">110</span><span class="text-base font-normal"> + GST</span></p>
+          <p class="text-sm text-gray-600 mt-1">Charged in 15-min blocks</p>
+        </div>
+        <div class="rounded-2xl border p-6 shadow-sm">
+          <h4 class="font-bold">Drain unblocking</h4>
+          <p class="mt-2 text-3xl font-extrabold">From $<span id="unblock">249</span><span class="text-base font-normal"> + GST</span></p>
+          <p class="text-sm text-gray-600 mt-1">Includes basic machine setup</p>
+        </div>
+      </div>
+      <p class="mt-4 text-sm text-gray-600">* After-hours & materials priced separately. GST invoices provided.</p>
+    </div>
+  </section>
+
+  <!-- Trust -->
+  <section class="bg-gray-50">
+    <div class="mx-auto max-w-7xl px-4 py-16 grid md:grid-cols-3 gap-6">
+      <div class="bg-white rounded-2xl p-6 shadow">
+        <h4 class="font-bold">Service Guarantee</h4>
+        <p class="mt-2 text-sm text-gray-700">We stand behind our work. If something isn’t right, we’ll make it right.</p>
+      </div>
+      <div class="bg-white rounded-2xl p-6 shadow">
+        <h4 class="font-bold">Eco-friendly Options</h4>
+        <p class="mt-2 text-sm text-gray-700">Responsible disposal & water-wise practices wherever possible.</p>
+      </div>
+      <div class="bg-white rounded-2xl p-6 shadow">
+        <h4 class="font-bold">Police-vetted & Insured</h4>
+        <p class="mt-2 text-sm text-gray-700">Peace of mind for homeowners & property managers.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="bg-white">
+    <div class="mx-auto max-w-7xl px-4 py-16 grid md:grid-cols-2 gap-10 items-start">
+      <div>
+        <h3 class="text-2xl font-bold">About Unblock<span class="brand">Me</span></h3>
+        <p class="mt-3 text-gray-700">Kia ora — I’m James. After 8+ years on the tools in Auckland, I started UnblockMe to bring straight-up, no-nonsense plumbing & drainage to local homes and businesses. I show up when I say I will, keep things tidy, and explain your options clearly.</p>
+        <ul class="mt-4 text-sm text-gray-700 list-disc ml-5 space-y-1">
+          <li>Based in Te Atatū South — fast to West & Central</li>
+          <li>Clear quotes, photos of works, and job reports on request</li>
+          <li>Workmanship warranty & product warranties honoured</li>
+        </ul>
+      </div>
+      <div class="bg-gray-50 rounded-2xl p-6 shadow">
+        <h4 class="font-bold">Health & Safety</h4>
+        <p class="mt-2 text-sm text-gray-700">Site Safe practices, PPE used, and risk assessments carried out for each job. Public & product liability insured.</p>
+        <h4 class="font-bold mt-6">Payment Options</h4>
+        <p class="mt-2 text-sm text-gray-700">EFTPOS (mobile), bank transfer, or invoice. WINZ quotes & reports available.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / Book -->
+  <section id="contact" class="bg-gray-50">
+    <div class="mx-auto max-w-7xl px-4 py-16 grid md:grid-cols-2 gap-10">
+      <div>
+        <h3 class="text-2xl font-bold">Get a fast quote</h3>
+        <p class="mt-2 text-gray-700">Tell us what’s going on and the best time to reach you. We’ll reply ASAP.</p>
+        <form action="https://formsubmit.co/unblockmeltd@outlook.co.nz" method="POST" class="mt-6 grid grid-cols-1 gap-4 bg-white p-6 rounded-2xl shadow">
+          <input type="hidden" name="_subject" value="UnblockMe job request">
+          <input type="hidden" name="_template" value="table">
+          <input type="text" name="_honey" style="display:none">
+          <input type="hidden" name="_captcha" value="false">
+          <input class="border rounded-xl px-4 py-3 focus:outline-none focus:ring-2 ring-brand" type="text" name="name" placeholder="Your name" required>
+          <input class="border rounded-xl px-4 py-3 focus:outline-none focus:ring-2 ring-brand" type="tel" name="phone" placeholder="Mobile" required>
+          <input class="border rounded-xl px-4 py-3 focus:outline-none focus:ring-2 ring-brand" type="email" name="email" placeholder="Email">
+          <input class="border rounded-xl px-4 py-3 focus:outline-none focus:ring-2 ring-brand" type="text" name="suburb" placeholder="Suburb">
+          <textarea class="border rounded-xl px-4 py-3 focus:outline-none focus:ring-2 ring-brand" name="message" rows="5" placeholder="What’s the issue?"></textarea>
+          <button type="submit" class="px-5 py-3 rounded-xl bg-brand text-white font-semibold shadow hover:opacity-95">Send</button>
+          <p class="text-xs text-gray-500">By submitting, you agree to be contacted about your job.</p>
+        </form>
+        <p class="mt-4 text-sm text-gray-700">Prefer email? <a class="text-brand underline" href="mailto:unblockmeltd@outlook.co.nz?subject=UnblockMe%20job%20request">unblockmeltd@outlook.co.nz</a></p>
+      </div>
+      <div id="book" class="bg-white p-6 rounded-2xl shadow">
+        <h4 class="font-bold">Contact details</h4>
+        <ul class="mt-3 space-y-2 text-sm text-gray-700">
+          <li><strong>Phone:</strong> <a class="text-brand underline" href="tel:021885610">021 885 610</a></li>
+          <li><strong>Email:</strong> <a class="text-brand underline" href="mailto:unblockmeltd@outlook.co.nz?subject=UnblockMe%20job%20request">unblockmeltd@outlook.co.nz</a></li>
+          <li><strong>Base:</strong> Te Atatū South, Auckland</li>
+          <li><strong>Hours:</strong> Mon–Sat 7am–7pm (after-hours by arrangement)</li>
+        </ul>
+        <div class="mt-6">
+          <a class="block w-full text-center px-5 py-3 rounded-xl border border-brand text-brand font-semibold hover:bg-green-50" href="https://maps.google.com/?q=Te+Atatu+South+Auckland" target="_blank" rel="noopener">Open in Google Maps</a>
+        </div>
+        <div class="mt-6 border-t pt-6">
+          <h5 class="font-semibold mb-2">For Property Managers</h5>
+          <p class="text-sm text-gray-700">Email work orders and we’ll confirm attendance within 2 business hours.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-gray-300">
+    <div class="mx-auto max-w-7xl px-4 py-10 grid md:grid-cols-3 gap-8">
+      <div>
+        <h4 class="text-white font-extrabold text-xl">Unblock<span class="brand">Me</span></h4>
+        <p class="mt-2 text-sm">Plumbing & Drainlaying in Auckland. Honest, Reliable, Affordable.</p>
+      </div>
+      <div>
+        <h5 class="text-white font-bold">Quick links</h5>
+        <ul class="mt-2 text-sm space-y-1">
+          <li><a href="#services" class="hover:underline">Services</a></li>
+          <li><a href="#pricing" class="hover:underline">Pricing</a></li>
+          <li><a href="#about" class="hover:underline">About</a></li>
+          <li><a href="#contact" class="hover:underline">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5 class="text-white font-bold">Get in touch</h5>
+        <ul class="mt-2 text-sm space-y-1">
+          <li><a class="hover:underline" href="tel:021885610">021 885 610</a></li>
+          <li><a class="hover:underline" href="mailto:unblockmeltd@outlook.co.nz?subject=UnblockMe%20job%20request">unblockmeltd@outlook.co.nz</a></li>
+        </ul>
+        <p class="mt-4 text-xs">© <span id="year"></span> UnblockMe Ltd. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
